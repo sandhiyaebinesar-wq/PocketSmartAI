@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Recommendations - PocketSmart AI</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <div class="logo">
+            PocketSmart AI
+        </div>
+
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="history.html">History</a>
+            <a href="index.html" onclick="logout()">Logout</a>
+        </nav>
+
+    </header>
+
+
+    <main class="results-page">
+
+        <section class="results-header">
+
+            <h1>
+                🤖 Your AI Recommendations
+            </h1>
+
+            <p id="resultSummary">
+                Loading your recommendations...
+            </p>
+
+        </section>
+
+
+        <section id="resultsContainer" class="results-container">
+
+            <!-- Recommendation cards will appear here -->
+
+        </section>
+
+
+        <section class="results-actions">
+
+            <a href="dashboard.html" class="btn">
+                Back to Dashboard
+            </a>
+
+            <a href="history.html" class="btn secondary-btn">
+                View History
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            © 2026 PocketSmart AI
+        </p>
+
+    </footer>
+
+
+    <script src="../js/app.js"></script>
+
+</body>
+
+</html>
